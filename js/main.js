@@ -24,6 +24,11 @@ libreria.push(libro1)
 libreria.push(libro2)
 libreria.push(libro3)
 
+// METODO FIND PARA BUSQUEDA DE LIBRO POR DISPONIBILIDAD 
+
+let disponibles = libreria.filter(libro=>libro.disponibilidad == true);
+
+console.log(disponibles);
 
 
 // ---- --- -- FUNCION PARA AGREGAR LIBROS LADO DEL USUARIO ---- --- --- 
@@ -47,6 +52,8 @@ while(cargarLibro == "SI"){
     agregarLibro();
     cargarLibro = prompt("Desea agregar un libro?").toLocaleUpperCase()
 }
+
+
 
 
 
