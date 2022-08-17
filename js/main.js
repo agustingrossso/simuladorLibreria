@@ -1,4 +1,4 @@
-// ----- ---- ---- ---- DESAFIO ARRAYS  ----- ---- --- -----
+
 // ----- ---- ---- ---- INCORPORAR NUEVOS LIBROS EN UN ARRAY MEDIANTE METODO PUSH. ----- ---- --- 
 
 class libro{
@@ -46,12 +46,14 @@ function agregarLibro(){
     console.log(libreria);
 }
 
-let cargarLibro = prompt("Desea agregar un libro?").toLocaleUpperCase()
+let cargarLibro = prompt("Desea agregar un libro?").toLocaleUpperCase();
+
 
 while(cargarLibro == "SI"){
     agregarLibro();
     cargarLibro = prompt("Desea agregar un libro?").toLocaleUpperCase()
 }
+
 
 
 
