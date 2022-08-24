@@ -1,1 +1,7 @@
 agregar toLocaleUpperCase 
+acordarse del parseInt, parseFloat o Number .. en caso de ser necesarios.
+
+
+// 
+
+agregar un alert que muestre un libro que sea novedad ? 
