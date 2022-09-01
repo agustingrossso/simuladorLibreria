@@ -37,7 +37,7 @@ let carrito = [];
 
 document.addEventListener("DOMContentLoaded",() => {
     renderLibros(libreria)
-    carrito = JSON.parse( localStorage.getItem('carrito') ) 
+    carrito = JSON.parse( localStorage.getItem('carrito') ) || []
     renderCart()
 });
 
