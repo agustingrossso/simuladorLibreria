@@ -45,7 +45,7 @@ function renderLibros(){
     let html = "";
 
     for(let i = 0; i < libreria.length; i++){
-        html = html + `
+        html += `
         <div class="card" style="width: 18rem;"> 
             <img src="${libreria[i].img}" alt="">
                 <div class="card-body">
@@ -66,7 +66,7 @@ function renderCart(){
     let html = "";
 
     for(let i = 0; i < carrito.length; i++){
-        html = html + `
+        html += `
         <div style="border: 1px solid green; margin: 10px;">
             <p>nombre: ${carrito[i].nombre}</p>
             <p>Precio: ${carrito[i].precio}</p>
