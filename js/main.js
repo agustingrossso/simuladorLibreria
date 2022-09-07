@@ -70,12 +70,13 @@ function renderCart(){
         <div style="border: 1px solid green; margin: 10px;">
             <p>nombre: ${carrito[i].nombre}</p>
             <p>Precio: ${carrito[i].precio}</p>
-            <span style="cursor:pointer"; onclick="removeFromCart(${i});">BORRAR</span>;
+            <span style="cursor:pointer";  onclick="removeFromCart(${i});">BORRAR</span>;
         </div>
         `;
 
         
     }
+    
     document.getElementById("librosEnCarrito").innerHTML = html;
 
     almacenarEnStorage()
@@ -84,20 +85,47 @@ function renderCart(){
 
 
 function addToCart(id){
+    
     const foundBooks = libreria.find(item => item.id == id);
     
     carrito.push(foundBooks);
+  
     renderCart();
+    
 }
 
+
+
 function removeFromCart(id){
-    carrito.splice(id,1);
-    renderCart();
+   
+      Swal.fire({
+            title: 'Está seguro de eliminar el producto?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Sí, seguro',
+            cancelButtonText: 'No, no quiero'
+        }).then((result) => {
+    
+            if (result.isConfirmed) {
+                Swal.fire({
+                    title: 'Borrado!',
+                    icon: 'success',
+                    text: 'El archivo ha sido borrado'
+                    
+                })
+                carrito.splice(id,1);
+                renderCart();
+            }
+        })
 }
 
 function almacenarEnStorage(){
     localStorage.setItem('carrito', JSON.stringify(carrito))
 }
+
+
+
+
 
 renderLibros();
 
