@@ -101,8 +101,11 @@ function removeFromCart(id){
       Swal.fire({
             title: 'Está seguro de eliminar el producto?',
             icon: 'warning',
+            background: '#000',
+            color:'#ffff',
             showCancelButton: true,
             confirmButtonText: 'Sí, seguro',
+            confirmButtonColor: '#17301C',
             cancelButtonText: 'No, no quiero'
         }).then((result) => {
     
@@ -110,6 +113,9 @@ function removeFromCart(id){
                 Swal.fire({
                     title: 'Borrado!',
                     icon: 'success',
+                    background: '#000',
+                    color:'#ffff',
+                    confirmButtonColor: '#17301C',
                     text: 'El archivo ha sido borrado'
                     
                 })
