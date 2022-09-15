@@ -1,0 +1,19 @@
+
+
+
+[
+    {"id": 0, "nombre":"los catorce cuadernos", "precio":2500, "categoria":"ficcion", "autor":"Juan Sklar", "img":"./img/losCatorce.jpg" },
+    {"id": 1, "nombre":"¿Donde estoy?", "precio":3500, "categoria":"ensayo", "autor":"Bruno Latour", "img":"./img/Latour.jpg" },
+    {"id": 2, "nombre":"Aniquilacion", "precio":3000, "categoria":"ficcion", "autor":"Michel Houellebecq", "img":"./img/aniquilaAa.jpg" },
+    {"id": 3, "nombre":"Soy una tonta por quererte", "precio":2800, "categoria":"ficcion", "autor":"Camila Sosa Villada", "img":"./img/VilladaSoyUna.jpg" },
+    {"id": 4, "nombre":"Cronicas Marcianas", "precio":2500, "categoria":"ficcion", "autor":"Ray Bradbury", "img":"./img/Marciano.jpg" },
+    {"id": 5, "nombre":"Los peligros de fumar en la cama", "precio":1800, "categoria":"ficcion", "autor":"Mariana Enriquez", "img":"./img/peligro.jpg" },
+    {"id": 6, "nombre":"El Tercer Reich", "precio":2500, "categoria":"ficcion", "autor":"Roberto Bolaño", "img":"./img/elTercerRe.jpeg" },
+    {"id": 7, "nombre":"Chocolate sin grasa", "precio":3800, "categoria":"ensayo", "autor":"Slavoj Zizek", "img":"./img/sinGrasa.jpg" },
+    {"id": 8, "nombre":"No me acuerdo de nada", "precio":3500, "categoria":"ensayo", "autor":"Nora Ephron", "img":"./img/nadaaa.jpg" },
+    {"id": 9, "nombre":"Indigno de ser humano", "precio":3600, "categoria":"ficcion", "autor":"Osamu Dazai", "img":"./img/NoHumano.jpg" },
+    {"id": 10, "nombre":"El fin del amor", "precio":1800, "categoria":"ensayo", "autor":"Tamara Tenenbaum", "img":"./img/Tamara.jpg" },
+    {"id": 11, "nombre":"El tunel", "precio":1500, "categoria":"ficcion", "autor":"Ernesto Sabato", "img":"./img/TunelSabatiano.jpg" },
+    {"id": 12, "nombre":"Una cuestion personal", "precio":1800, "categoria":"ficcion", "autor":"Kenzaburo Oe", "img":"./img/CuestionOe.jpg" }
+
+]
